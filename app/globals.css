@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #000000;
+}
+
+.yel-gradient {
+  background: linear-gradient(90deg, #F6F930 5%, #D2F898 95%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+:root {
+  color-scheme: dark;
+}
